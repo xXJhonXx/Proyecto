@@ -1,0 +1,18 @@
+jsv_test_homepage:
+    path:     /home/{name}
+    defaults: { _controller: JSVTestBundle:Default:index }
+jsv_test_user:
+    path:     /user/index   
+    defaults: { _controller: JSVTestBundle:User:index }
+jsv_test_add                    :
+    path:     /user/add
+    defaults: { _controller: JSVTestBundle:User:add }
+jsv_test_edit                   :
+    path:     /user/edit/{id}
+    defaults: { _controller: JSVTestBundle:User:edit }
+jsv_test_view                   :
+    path:     /user/view/{id}
+    defaults: { _controller: JSVTestBundle:User:view }
+jsv_test_delete                   :
+    path:     /user/delete/{id}
+    defaults: { _controller: JSVTestBundle:User:delete }
